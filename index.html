@@ -5,76 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-   Tr{
-    size: 100%;
-        border: 2px solid black;
-        border-radius: 30px;
-   }
-   td  { 
-       size: 100%;
-        border: 2px solid black;
-        border-radius: 30px;
-        text-align: center;
-        
-
-      }
-      .hitam {
-    background-size: 100%;
-        background-color: rgb(147, 147, 147);
-        color: white;
-       
     
-        
-      }
-      .orange {
-
-        background-color: orange;
-        
-      }
-        
-    </style>
+    
 </head>
 <body>
-<Table>
-    <tr>
-        <th type="text" colspan="4"><input/th>
-    </tr>
-   <tr> 
-   <td > <button class="hitam">AC</button></td>
-  <td >  <button class="hitam">
-        %
-    </button>
-</td>
-<td >
-<button class="hitam">C</button>
-</td>
-<td class="hitam">
-    /
-</td>
-   </tr>
-   <tr>
-    <td type="submit">7</td>
-    <td>8</td>
-    <td>9</td><td class="hitam">*</td>
-   </tr>
-   <tr>
-    <td>4</td><td>5</td><td>6</td><td class="hitam">-</td>
-    
-   </tr>
-<tr>
-    <td>1</td>
-    <td>2</td><td>3</td><td class="hitam">+</td>
-   </tr>
-   <tr>
-    <td>00</td>
-    <td>0</td>
-    <td>.</td>
-    <td class="orange">=</td>
-   </tr>
-</Table>
+    <div class="calculator">
 
-</div>    
+        <div class="userInput"><p class="userEntry"></p><p class="finalCalc"></p></div>
+    
+        <div class="calcButtons">
+        
+    
+            <button>+/-</button>
+            <button>AC</button>
+            <button>DEL</button>
+            <button class="operator">*</button>
+    
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">+</button>
+    
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">/</button>
+        
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">-</button>
+    
+        
+            <button class="number">0</button>
+            <button class="decimal">.</button>
+            <button class="operator">=</button>
+    
+    
+        </div>
+    </div>
+    
+    <script src="script.java"></script>
+    
 
 </body>
 
